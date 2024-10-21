@@ -18,7 +18,7 @@ let availableStock = {
     "XL": 0      //out of stock
 };
 
-
+//Task 4
 purchaseButton.addEventListener("click", () => {
     const selectedOption = sizeSelector.options[sizeSelector.selectedIndex].text;
 
